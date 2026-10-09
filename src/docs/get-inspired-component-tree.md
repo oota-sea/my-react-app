@@ -63,7 +63,6 @@ DescribingUi.jsx
 └── Copyright.jsx
 ```
 
-> `Copyright.jsx` は `InspirationGenerator.jsx` から直接 import されていません。`DescribingUi.jsx` が import して、`children` として渡しています。
 
 ## 4. ファイルごとの役割
 
@@ -82,4 +81,4 @@ DescribingUi.jsx
 - **レンダーツリー**：実際に画面へ表示されるコンポーネントの親子関係。`quote` / `color` によって変化する。
 - **モジュール依存ツリー**：どのファイルがどのファイルを `import` しているか。表示状態が変わっても、import関係そのものは変わらない。
 
-※ 上記は会話内で確認した実装をもとにした図です。`index.css` のimport元や、その他のアプリ全体のルーティング階層は含めていません。
+
