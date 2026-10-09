@@ -109,3 +109,52 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+/*day3 UIの記述で使用*/
+.colorbox {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+/* 言語切り替え */
+.language-switch {
+  display: flex;
+  width: fit-content;
+  margin: 16px auto;
+  padding: 4px;
+  gap: 4px;
+  border-radius: 999px;
+  background-color: #f1f1f1;
+}
+
+.language-switch button {
+  width: auto;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: #555;
+  cursor: pointer;
+}
+
+.language-switch button.active {
+  background-color: #222;
+  color: white;
+}
+
+/* 名言切り替え */
+.inspire-button {
+  display: block;
+  width: fit-content;
+  margin: 16px auto;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 999px;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}
+
+.inspire-button:hover {
+  background-color: #444;
+}
